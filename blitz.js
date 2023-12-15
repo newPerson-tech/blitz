@@ -1,7 +1,7 @@
 const circleRadius = +prompt('Give us any radius length of a circle', ' ');
 
 function calculateCircleArea(radius){
-    const areaResult = (Math.PI * Math.pow(radius, 2));
+    const areaResult = Math.PI * radius * radius;
     return areaResult;
 }
 
